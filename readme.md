@@ -14,11 +14,11 @@ $ npm i fuck-ie
 var isIE = require('fuck-ie')
 
 // If your browser is IE6, the returned value will be true.
-var isIE_6 = isIE(6)
+var isIE_6 = fuckIE(6)
 
 // If your browser is IE6 or IE7 or IE8, the returned value will be true.
-var isIE_6_7_8 = isIE(6, 7, 8)
+var isIE_6_7_8 = fuckIE(6, 7, 8)
 
 // If your browser is any version of IE, the returned value will be true.
-var isAnyVersionOfIE = isIE()
+var isAnyVersionOfIE = fuckIE()
 ```
