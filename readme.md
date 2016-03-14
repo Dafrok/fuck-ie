@@ -11,7 +11,7 @@ $ npm i fuck-ie
 
 ## Usage
 ```javascript
-var isIE = require('fuck-ie')
+var fuckIE = require('fuck-ie')
 
 // If your browser is IE6, the returned value will be true.
 var isIE_6 = fuckIE(6)
