@@ -39,8 +39,7 @@
         var args = [].slice.call(arguments)
         switch (args.length) {
             case 0:
-                return isIE(5.5, 6, 7, 8, 9, 10)
-                break
+                return IE.isTheBrowser
             case 1:
                 return +version === +IE.actualVersion
             default:
@@ -52,5 +51,4 @@
                 return false
         }
     }
-
 })
