@@ -44,14 +44,12 @@
             case 1:
                 return +version === +IE.actualVersion
             default:
-                var flag = false
                 for (var i = 0; i < args.length; i++) {
                     if (isIE(args[i])) {
-                        flag = true
-                        break
+                        return true
                     }
                 }
-                return flag
+                return false
         }
     }
 
