@@ -4,7 +4,7 @@
     } else if (typeof define === 'function' && define.amd) {
         define(factory)
     } else {
-        root.isIE = factory()
+        root.fuckIE = factory()
     }
 })(this, function() {
     var IE = (function () {
