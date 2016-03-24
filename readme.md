@@ -2,7 +2,7 @@
 
 ## Description
 
-Check your browser is whether a specified version of IE or not.
+Check whether your browser is a specified version of IE.
 
 ## Install
 ```
