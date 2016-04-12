@@ -1,7 +1,5 @@
 # fuck-ie
 
-## Description
-
 Check whether your browser is a specified version of IE.
 
 ## Install
