@@ -1,6 +1,6 @@
 {
   "name": "fuck-ie",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Check whether your browser is a specified version of IE.",
   "main": "index.js",
   "scripts": {},
