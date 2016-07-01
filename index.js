@@ -27,7 +27,7 @@
         if (jscriptVersion !== undefined) {
             isTheBrowser = true
             actualVersion = jscriptMap[jscriptVersion]
-        } else if ('ActiveXObject' in window){
+        } else if (typeof window === 'object' && 'ActiveXObject' in window){
             isTheBrowser = true
             actualVersion = '11'
         }
