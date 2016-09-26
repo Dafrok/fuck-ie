@@ -6,7 +6,7 @@
     } else {
         root.fuckIE = factory()
     }
-})(this, function() {
+})(this, function () {
     var IE = (function () {
         'use strict'
         var ret
@@ -27,7 +27,7 @@
         if (jscriptVersion !== undefined) {
             isTheBrowser = true
             actualVersion = jscriptMap[jscriptVersion]
-        } else if (typeof window === 'object' && 'ActiveXObject' in window){
+        } else if (typeof window === 'object' && 'ActiveXObject' in window) {
             isTheBrowser = true
             actualVersion = '11'
         }
@@ -36,7 +36,7 @@
             actualVersion: actualVersion
         }
         return ret
-    }())
+    } ())
 
     return function isIE(version) {
         var args = [].slice.call(arguments)
