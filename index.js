@@ -21,15 +21,13 @@
             '5.7': '7',
             '5.8': '8',
             '9': '9',
-            '10': '10'
+            '10': '10',
+            '11': '11',
         };
         jscriptVersion = new Function('/*@cc_on return @_jscript_version; @*/')()
         if (jscriptVersion !== undefined) {
             isTheBrowser = true
             actualVersion = jscriptMap[jscriptVersion]
-        } else if (typeof window === 'object' && 'ActiveXObject' in window){
-            isTheBrowser = true
-            actualVersion = '11'
         }
         ret = {
             isTheBrowser: isTheBrowser,
