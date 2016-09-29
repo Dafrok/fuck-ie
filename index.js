@@ -22,7 +22,7 @@
             '5.8': '8',
             '9': '9',
             '10': '10',
-            '11': '11',
+            '11': '11'
         };
         jscriptVersion = new Function('/*@cc_on return @_jscript_version; @*/')()
         if (jscriptVersion !== undefined) {
