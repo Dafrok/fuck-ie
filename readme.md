@@ -1,6 +1,6 @@
 # fuck-ie
 
-Check whether your browser is a specified version of IE.
+Check whether your browser is a f**king specified version of IE.
 
 ## Install
 ```
